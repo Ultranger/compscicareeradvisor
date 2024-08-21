@@ -3,7 +3,7 @@
     
     <category>
         <pattern>begin</pattern>
-        <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below: 
+        <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the options below:
             <button>
                 <text>Learn about top 5 careers</text>
                 <postback>top careers</postback>
@@ -59,7 +59,7 @@
     
     <category>
         <pattern>webquestion</pattern>
-        <template> Do you have a lot of experience working with web applications or API's?  
+        <template> Do you have a lot of experience working with web applications or APIs?
             <button>
                 <text>yes</text>
                 <postback>webquestion 2</postback>
@@ -72,7 +72,7 @@
     </category>
     <category>
         <pattern>programming question</pattern>
-        <template> Do you perfer to work in a development environment?
+        <template> Do you prefer to work in a development environment?
             <button>
                 <text>yes</text>
                 <postback>programming question 2</postback>
@@ -85,7 +85,7 @@
     </category>
     <category>
         <pattern>webquestion 2</pattern>
-        <template> Do you enjoy working primairly with web applications?
+        <template> Do you enjoy working primarily with web applications?
             <button>
                 <text>yes</text>
                 <postback>web developer question</postback>
