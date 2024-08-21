@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>A</pattern>
+        <template>
+            <condition name="question" value="4">
+                <think><set name="jobA">1</set></think>
+                <think><set name="question">5</set></think>
+                Are you interested in the security and protection of computer systems? (Yes/No)
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>B</pattern>
+        <template>
+            <condition name="question" value="4">
+                <think><set name="jobB">1</set></think>
+                <think><set name="question">5</set></think>
+                Are you interested in the security and protection of computer systems? (Yes/No)
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C</pattern>
+        <template>
+            <condition name="question" value="4">
+                <think><set name="jobC">1</set></think>
+                <think><set name="question">5</set></think>
+                Are you interested in the security and protection of computer systems? (Yes/No)
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>D</pattern>
+        <template>
+            <condition name="question" value="4">
+                <think><set name="jobD">1</set></think>
+                <think><set name="question">5</set></think>
+                Are you interested in the security and protection of computer systems? (Yes/No)
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>E</pattern>
+        <template>
+            <condition name="question" value="4">
+                <think><set name="jobE">1</set></think>
+                <think><set name="question">5</set></think>
+                Are you interested in the security and protection of computer systems? (Yes/No)
+            </condition>
+        </template>
+    </category>
+
+</aiml>

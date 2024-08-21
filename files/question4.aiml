@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>Yes</pattern>
+        <template>
+            <condition name="question" value="3">
+                <think><set name="jobB" add="1"></set></think>
+                <think><set name="jobD" add="1"></set></think>
+                <think><set name="question">4</set></think>
+                Which of the following statements best describes your problem-solving approach?<br/>
+                A) I enjoy breaking down a problem and systematically coding a solution.<br/>
+                B) I like to investigate and analyze data to find solutions.<br/>
+                C) I focus on identifying vulnerabilities and securing systems against threats.<br/>
+                D) I prefer developing models that can solve complex problems autonomously.<br/>
+                E) I enjoy diagnosing issues quickly and providing immediate solutions.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>No</pattern>
+        <template>
+            <condition name="question" value="3">
+                <think><set name="jobA" add="1"></set></think>
+                <think><set name="jobC" add="1"></set></think>
+                <think><set name="jobE" add="1"></set></think>
+                <think><set name="question">4</set></think>
+                Which of the following statements best describes your problem-solving approach?<br/>
+                A) I enjoy breaking down a problem and systematically coding a solution.<br/>
+                B) I like to investigate and analyze data to find solutions.<br/>
+                C) I focus on identifying vulnerabilities and securing systems against threats.<br/>
+                D) I prefer developing models that can solve complex problems autonomously.<br/>
+                E) I enjoy diagnosing issues quickly and providing immediate solutions.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+</aiml>

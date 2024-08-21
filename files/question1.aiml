@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+         <pattern>find a career</pattern>
+         <template>
+             We will now ask you a series of questions to provide suggestions on career paths to consider.
+             <br></br>
+             <br></br>
+             What aspect of computing do you enjoy the most?<br/>
+             A) Writing and testing code to build software applications.<br/>
+             B) Analyzing data to uncover patterns and insights.<br/>
+             C) Protecting systems and networks from security threats.<br/>
+             D) Developing algorithms and models for intelligent systems.<br/>
+             E) Troubleshooting and resolving technical issues for users.<br/>
+             Please respond with A, B, C, D, or E.
+             <think><set name="question">1</set></think>
+         </template>
+     </category>
+
+</aiml>
