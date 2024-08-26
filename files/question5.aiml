@@ -5,7 +5,7 @@
         <pattern>A</pattern>
         <template>
             <condition name="question" value="4">
-                <think><set name="jobA">1</set></think>
+                <think><set name="jobA" add="1"></set></think>
                 <think><set name="question">5</set></think>
                 Are you interested in the security and protection of computer systems? (Yes/No)
             </condition>
@@ -16,7 +16,7 @@
         <pattern>B</pattern>
         <template>
             <condition name="question" value="4">
-                <think><set name="jobB">1</set></think>
+                <think><set name="jobB" add="1"></set></think>
                 <think><set name="question">5</set></think>
                 Are you interested in the security and protection of computer systems? (Yes/No)
             </condition>
@@ -27,7 +27,7 @@
         <pattern>C</pattern>
         <template>
             <condition name="question" value="4">
-                <think><set name="jobC">1</set></think>
+                <think><set name="jobC" add="1"></set></think>
                 <think><set name="question">5</set></think>
                 Are you interested in the security and protection of computer systems? (Yes/No)
             </condition>
@@ -38,7 +38,7 @@
         <pattern>D</pattern>
         <template>
             <condition name="question" value="4">
-                <think><set name="jobD">1</set></think>
+                <think><set name="jobD" add="1"></set></think>
                 <think><set name="question">5</set></think>
                 Are you interested in the security and protection of computer systems? (Yes/No)
             </condition>
@@ -49,7 +49,7 @@
         <pattern>E</pattern>
         <template>
             <condition name="question" value="4">
-                <think><set name="jobE">1</set></think>
+                <think><set name="jobE" add="1"></set></think>
                 <think><set name="question">5</set></think>
                 Are you interested in the security and protection of computer systems? (Yes/No)
             </condition>
