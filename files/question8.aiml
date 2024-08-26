@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>A</pattern>
+        <template>
+            <condition name="question" value="7">
+                <think><set name="jobA">1</set></think>
+                <think><set name="question">8</set></think>
+                Which tools or technologies are you most proficient with?<br/>
+                A) Programming languages like Java, Python, or C++.<br/>
+                B) Data analysis tools like Excel, SQL, or R.<br/>
+                C) Security tools like firewalls, encryption, or intrusion detection systems.<br/>
+                D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
+                E) Operating systems, hardware troubleshooting, or IT support software.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>B</pattern>
+        <template>
+            <condition name="question" value="7">
+                <think><set name="jobB">1</set></think>
+                <think><set name="question">8</set></think>
+                Which tools or technologies are you most proficient with?<br/>
+                A) Programming languages like Java, Python, or C++.<br/>
+                B) Data analysis tools like Excel, SQL, or R.<br/>
+                C) Security tools like firewalls, encryption, or intrusion detection systems.<br/>
+                D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
+                E) Operating systems, hardware troubleshooting, or IT support software.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C</pattern>
+        <template>
+            <condition name="question" value="7">
+                <think><set name="jobC">1</set></think>
+                <think><set name="question">8</set></think>
+                Which tools or technologies are you most proficient with?<br/>
+                A) Programming languages like Java, Python, or C++.<br/>
+                B) Data analysis tools like Excel, SQL, or R.<br/>
+                C) Security tools like firewalls, encryption, or intrusion detection systems.<br/>
+                D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
+                E) Operating systems, hardware troubleshooting, or IT support software.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>D</pattern>
+        <template>
+            <condition name="question" value="7">
+                <think><set name="jobD">1</set></think>
+                <think><set name="question">8</set></think>
+                Which tools or technologies are you most proficient with?<br/>
+                A) Programming languages like Java, Python, or C++.<br/>
+                B) Data analysis tools like Excel, SQL, or R.<br/>
+                C) Security tools like firewalls, encryption, or intrusion detection systems.<br/>
+                D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
+                E) Operating systems, hardware troubleshooting, or IT support software.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>E</pattern>
+        <template>
+            <condition name="question" value="7">
+                <think><set name="jobE">1</set></think>
+                <think><set name="question">8</set></think>
+                Which tools or technologies are you most proficient with?<br/>
+                A) Programming languages like Java, Python, or C++.<br/>
+                B) Data analysis tools like Excel, SQL, or R.<br/>
+                C) Security tools like firewalls, encryption, or intrusion detection systems.<br/>
+                D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
+                E) Operating systems, hardware troubleshooting, or IT support software.<br/>
+                Please respond with A, B, C, D, or E.
+            </condition>
+        </template>
+    </category>
+
+</aiml>
