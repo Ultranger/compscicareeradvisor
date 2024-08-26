@@ -6,22 +6,21 @@
         <template>
             <condition name="question" value="9">
                 <think><set name="jobA" add="1"></set></think>
-                Thank you for answering all the questions. Let me recommend a job for you...
                 <think>
                     <condition name="jobA" value="MAX">
-                        Based on your responses, Software Developer might be the best fit for you!
+                        <postback>software developer question</postback>
                     </condition>
                     <condition name="jobB" value="MAX">
-                        Based on your responses, Data Analyst might be the best fit for you!
+                        <postback>data analyst question</postback>
                     </condition>
                     <condition name="jobC" value="MAX">
-                        Based on your responses, Cybersecurity Analyst might be the best fit for you!
+                        <postback>cybersecurity analyst question</postback>
                     </condition>
                     <condition name="jobD" value="MAX">
-                        Based on your responses, AI/ML Engineer might be the best fit for you!
+                        <postback>aiml engineer question</postback>
                     </condition>
                     <condition name="jobE" value="MAX">
-                        Based on your responses, IT Support Specialist might be the best fit for you!
+                        <postback>it support specialist question</postback>
                     </condition>
                 </think>
             </condition>
@@ -33,13 +32,23 @@
         <template>
             <condition name="question" value="9">
                 <think><set name="jobB" add="1"></set></think>
-                What is your preferred work environment?<br/>
-                A) I like working independently on coding projects.<br/>
-                B) I enjoy collaborating with others to analyze and interpret data.<br/>
-                C) I prefer working in environments where I can focus on security challenges.<br/>
-                D) I enjoy a research-oriented environment with a focus on innovation.<br/>
-                E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
-                Please respond with A, B, C, D, or E.
+                <think>
+                    <condition name="jobA" value="MAX">
+                        <postback>software developer question</postback>
+                    </condition>
+                    <condition name="jobB" value="MAX">
+                        <postback>data analyst question</postback>
+                    </condition>
+                    <condition name="jobC" value="MAX">
+                        <postback>cybersecurity analyst question</postback>
+                    </condition>
+                    <condition name="jobD" value="MAX">
+                        <postback>aiml engineer question</postback>
+                    </condition>
+                    <condition name="jobE" value="MAX">
+                        <postback>it support specialist question</postback>
+                    </condition>
+                </think>
             </condition>
         </template>
     </category>
@@ -49,13 +58,23 @@
         <template>
             <condition name="question" value="9">
                 <think><set name="jobC" add="1"></set></think>
-                What is your preferred work environment?<br/>
-                A) I like working independently on coding projects.<br/>
-                B) I enjoy collaborating with others to analyze and interpret data.<br/>
-                C) I prefer working in environments where I can focus on security challenges.<br/>
-                D) I enjoy a research-oriented environment with a focus on innovation.<br/>
-                E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
-                Please respond with A, B, C, D, or E.
+                <think>
+                    <condition name="jobA" value="MAX">
+                        <postback>software developer question</postback>
+                    </condition>
+                    <condition name="jobB" value="MAX">
+                        <postback>data analyst question</postback>
+                    </condition>
+                    <condition name="jobC" value="MAX">
+                        <postback>cybersecurity analyst question</postback>
+                    </condition>
+                    <condition name="jobD" value="MAX">
+                        <postback>aiml engineer question</postback>
+                    </condition>
+                    <condition name="jobE" value="MAX">
+                        <postback>it support specialist question</postback>
+                    </condition>
+                </think>
             </condition>
         </template>
     </category>
@@ -65,13 +84,23 @@
         <template>
             <condition name="question" value="9">
                 <think><set name="jobD" add="1"></set></think>
-                What is your preferred work environment?<br/>
-                A) I like working independently on coding projects.<br/>
-                B) I enjoy collaborating with others to analyze and interpret data.<br/>
-                C) I prefer working in environments where I can focus on security challenges.<br/>
-                D) I enjoy a research-oriented environment with a focus on innovation.<br/>
-                E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
-                Please respond with A, B, C, D, or E.
+                <think>
+                    <condition name="jobA" value="MAX">
+                        <postback>software developer question</postback>
+                    </condition>
+                    <condition name="jobB" value="MAX">
+                        <postback>data analyst question</postback>
+                    </condition>
+                    <condition name="jobC" value="MAX">
+                        <postback>cybersecurity analyst question</postback>
+                    </condition>
+                    <condition name="jobD" value="MAX">
+                        <postback>aiml engineer question</postback>
+                    </condition>
+                    <condition name="jobE" value="MAX">
+                        <postback>it support specialist question</postback>
+                    </condition>
+                </think>
             </condition>
         </template>
     </category>
@@ -81,13 +110,23 @@
         <template>
             <condition name="question" value="9">
                 <think><set name="jobE" add="1"></set></think>
-                What is your preferred work environment?<br/>
-                A) I like working independently on coding projects.<br/>
-                B) I enjoy collaborating with others to analyze and interpret data.<br/>
-                C) I prefer working in environments where I can focus on security challenges.<br/>
-                D) I enjoy a research-oriented environment with a focus on innovation.<br/>
-                E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
-                Please respond with A, B, C, D, or E.
+                <think>
+                    <condition name="jobA" value="MAX">
+                        <postback>software developer question</postback>
+                    </condition>
+                    <condition name="jobB" value="MAX">
+                        <postback>data analyst question</postback>
+                    </condition>
+                    <condition name="jobC" value="MAX">
+                        <postback>cybersecurity analyst question</postback>
+                    </condition>
+                    <condition name="jobD" value="MAX">
+                        <postback>aiml engineer question</postback>
+                    </condition>
+                    <condition name="jobE" value="MAX">
+                        <postback>it support specialist question</postback>
+                    </condition>
+                </think>
             </condition>
         </template>
     </category>

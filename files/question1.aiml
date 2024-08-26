@@ -4,6 +4,12 @@
     <category>
          <pattern>find a career</pattern>
          <template>
+             <think><set name="question">0</set></think>
+             <think><set name="jobA">0</set></think>
+             <think><set name="jobB">0</set></think>
+             <think><set name="jobC">0</set></think>
+             <think><set name="jobD">0</set></think>
+             <think><set name="jobE">0</set></think>
              We will now ask you a series of questions to provide suggestions on career paths to consider.
              <br></br>
              <br></br>

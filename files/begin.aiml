@@ -23,20 +23,20 @@
                 <postback>software developer</postback>
             </button>
             <button>
+                <text>Data Analyst</text>
+                <postback>data analyst</postback>
+            </button>
+            <button>
                 <text>Cybersecurity Analyst</text>
                 <postback>cybersecurity analyst</postback>
             </button>
             <button>
-                <text>UX Designer</text>
-                <postback>ux designer</postback>
+                <text>AI/ML Engineer</text>
+                <postback>aiml engineer</postback>
             </button>
             <button>
-                <text>Database Administrator</text>
-                <postback>database administrator</postback>
-            </button>
-            <button>
-                <text>Web Developer</text>
-                <postback>web developer</postback>
+                <text>IT Support Specialist</text>
+                <postback>it support specialist</postback>
             </button>
         </template>
     </category>
