@@ -3,57 +3,57 @@
 
     <category>
         <pattern>A</pattern>
-        <template>
-            <condition name="question" value="1">
-                <think><set name="jobA">1</set></think>
-                <think><set name="question">2</set></think>
+        <condition name="question" value="1">
+            <think><set name="jobA">1</set></think>
+            <think><set name="question">2</set></think>
+            <template>
                 Are you comfortable with programming and software development? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>B</pattern>
-        <template>
-            <condition name="question" value="1">
-                <think><set name="jobB">1</set></think>
-                <think><set name="question">2</set></think>
+        <condition name="question" value="1">
+            <think><set name="jobB">1</set></think>
+            <think><set name="question">2</set></think>
+            <template>
                 Are you comfortable with programming and software development? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>C</pattern>
-        <template>
-            <condition name="question" value="1">
-                <think><set name="jobC">1</set></think>
-                <think><set name="question">2</set></think>
+        <condition name="question" value="1">
+            <think><set name="jobC">1</set></think>
+            <think><set name="question">2</set></think>
+            <template>
                 Are you comfortable with programming and software development? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>D</pattern>
-        <template>
-            <condition name="question" value="1">
-                <think><set name="jobD">1</set></think>
-                <think><set name="question">2</set></think>
+        <condition name="question" value="1">
+            <think><set name="jobD">1</set></think>
+            <think><set name="question">2</set></think>
+            <template>
                 Are you comfortable with programming and software development? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>E</pattern>
-        <template>
-            <condition name="question" value="1">
-                <think><set name="jobE">1</set></think>
-                <think><set name="question">2</set></think>
+        <condition name="question" value="1">
+            <think><set name="jobE">1</set></think>
+            <think><set name="question">2</set></think>
+            <template>
                 Are you comfortable with programming and software development? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
 </aiml>

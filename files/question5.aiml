@@ -3,57 +3,57 @@
 
     <category>
         <pattern>A</pattern>
-        <template>
-            <condition name="question" value="4">
-                <think><set name="jobA" add="1"></set></think>
-                <think><set name="question">5</set></think>
+        <condition name="question" value="4">
+            <think><set name="jobA" add="1"></set></think>
+            <think><set name="question">5</set></think>
+            <template>
                 Are you interested in the security and protection of computer systems? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>B</pattern>
-        <template>
-            <condition name="question" value="4">
-                <think><set name="jobB" add="1"></set></think>
-                <think><set name="question">5</set></think>
+        <condition name="question" value="4">
+            <think><set name="jobB" add="1"></set></think>
+            <think><set name="question">5</set></think>
+            <template>
                 Are you interested in the security and protection of computer systems? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>C</pattern>
-        <template>
-            <condition name="question" value="4">
-                <think><set name="jobC" add="1"></set></think>
-                <think><set name="question">5</set></think>
+        <condition name="question" value="4">
+            <think><set name="jobC" add="1"></set></think>
+            <think><set name="question">5</set></think>
+            <template>
                 Are you interested in the security and protection of computer systems? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>D</pattern>
-        <template>
-            <condition name="question" value="4">
-                <think><set name="jobD" add="1"></set></think>
-                <think><set name="question">5</set></think>
+        <condition name="question" value="4">
+            <think><set name="jobD" add="1"></set></think>
+            <think><set name="question">5</set></think>
+            <template>
                 Are you interested in the security and protection of computer systems? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>E</pattern>
-        <template>
-            <condition name="question" value="4">
-                <think><set name="jobE" add="1"></set></think>
-                <think><set name="question">5</set></think>
+        <condition name="question" value="4">
+            <think><set name="jobE" add="1"></set></think>
+            <think><set name="question">5</set></think>
+            <template>
                 Are you interested in the security and protection of computer systems? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
 </aiml>

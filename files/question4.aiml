@@ -3,11 +3,11 @@
 
     <category>
         <pattern>Yes</pattern>
-        <template>
-            <condition name="question" value="3">
-                <think><set name="jobB" add="1"></set></think>
-                <think><set name="jobD" add="1"></set></think>
-                <think><set name="question">4</set></think>
+        <condition name="question" value="3">
+            <think><set name="jobB" add="1"></set></think>
+            <think><set name="jobD" add="1"></set></think>
+            <think><set name="question">4</set></think>
+            <template>
                 Which of the following statements best describes your problem-solving approach?<br/>
                 A) I enjoy breaking down a problem and systematically coding a solution.<br/>
                 B) I like to investigate and analyze data to find solutions.<br/>
@@ -15,18 +15,18 @@
                 D) I prefer developing models that can solve complex problems autonomously.<br/>
                 E) I enjoy diagnosing issues quickly and providing immediate solutions.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>No</pattern>
-        <template>
-            <condition name="question" value="3">
-                <think><set name="jobA" add="1"></set></think>
-                <think><set name="jobC" add="1"></set></think>
-                <think><set name="jobE" add="1"></set></think>
-                <think><set name="question">4</set></think>
+        <condition name="question" value="3">
+            <think><set name="jobA" add="1"></set></think>
+            <think><set name="jobC" add="1"></set></think>
+            <think><set name="jobE" add="1"></set></think>
+            <think><set name="question">4</set></think>
+            <template>
                 Which of the following statements best describes your problem-solving approach?<br/>
                 A) I enjoy breaking down a problem and systematically coding a solution.<br/>
                 B) I like to investigate and analyze data to find solutions.<br/>
@@ -34,8 +34,8 @@
                 D) I prefer developing models that can solve complex problems autonomously.<br/>
                 E) I enjoy diagnosing issues quickly and providing immediate solutions.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
 </aiml>

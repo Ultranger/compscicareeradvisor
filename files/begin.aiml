@@ -17,7 +17,7 @@
    
    <category>
         <pattern>top careers</pattern>
-        <template>Here are 5 Computer Science careers that you can look into with your degree
+        <template>Here are 5 Computer Science careers that you can look into with your degree.
             <button>
                 <text>Software Developer</text>
                 <postback>software developer</postback>

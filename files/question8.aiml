@@ -3,10 +3,10 @@
 
     <category>
         <pattern>A</pattern>
-        <template>
-            <condition name="question" value="7">
-                <think><set name="jobA" add="1"></set></think>
-                <think><set name="question">8</set></think>
+        <condition name="question" value="7">
+            <think><set name="jobA" add="1"></set></think>
+            <think><set name="question">8</set></think>
+            <template>
                 Which tools or technologies are you most proficient with?<br/>
                 A) Programming languages like Java, Python, or C++.<br/>
                 B) Data analysis tools like Excel, SQL, or R.<br/>
@@ -14,16 +14,16 @@
                 D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
                 E) Operating systems, hardware troubleshooting, or IT support software.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>B</pattern>
-        <template>
-            <condition name="question" value="7">
-                <think><set name="jobB" add="1"></set></think>
-                <think><set name="question">8</set></think>
+        <condition name="question" value="7">
+            <think><set name="jobB" add="1"></set></think>
+            <think><set name="question">8</set></think>
+            <template>
                 Which tools or technologies are you most proficient with?<br/>
                 A) Programming languages like Java, Python, or C++.<br/>
                 B) Data analysis tools like Excel, SQL, or R.<br/>
@@ -31,16 +31,16 @@
                 D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
                 E) Operating systems, hardware troubleshooting, or IT support software.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>C</pattern>
-        <template>
-            <condition name="question" value="7">
-                <think><set name="jobC" add="1"></set></think>
-                <think><set name="question">8</set></think>
+        <condition name="question" value="7">
+            <think><set name="jobC" add="1"></set></think>
+            <think><set name="question">8</set></think>
+            <template>
                 Which tools or technologies are you most proficient with?<br/>
                 A) Programming languages like Java, Python, or C++.<br/>
                 B) Data analysis tools like Excel, SQL, or R.<br/>
@@ -48,16 +48,16 @@
                 D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
                 E) Operating systems, hardware troubleshooting, or IT support software.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>D</pattern>
-        <template>
-            <condition name="question" value="7">
-                <think><set name="jobD" add="1"></set></think>
-                <think><set name="question">8</set></think>
+        <condition name="question" value="7">
+            <think><set name="jobD" add="1"></set></think>
+            <think><set name="question">8</set></think>
+            <template>
                 Which tools or technologies are you most proficient with?<br/>
                 A) Programming languages like Java, Python, or C++.<br/>
                 B) Data analysis tools like Excel, SQL, or R.<br/>
@@ -65,16 +65,16 @@
                 D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
                 E) Operating systems, hardware troubleshooting, or IT support software.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>E</pattern>
-        <template>
-            <condition name="question" value="7">
-                <think><set name="jobE" add="1"></set></think>
-                <think><set name="question">8</set></think>
+        <condition name="question" value="7">
+            <think><set name="jobE" add="1"></set></think>
+            <think><set name="question">8</set></think>
+            <template>
                 Which tools or technologies are you most proficient with?<br/>
                 A) Programming languages like Java, Python, or C++.<br/>
                 B) Data analysis tools like Excel, SQL, or R.<br/>
@@ -82,8 +82,8 @@
                 D) AI/ML frameworks like TensorFlow, PyTorch, or Scikit-learn.<br/>
                 E) Operating systems, hardware troubleshooting, or IT support software.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
 </aiml>

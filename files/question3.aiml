@@ -3,27 +3,27 @@
 
     <category>
         <pattern>Yes</pattern>
-        <template>
-            <condition name="question" value="2">
-                <think><set name="jobA" add="1"></set></think>
-                <think><set name="jobD" add="1"></set></think>
-                <think><set name="question">3</set></think>
+        <condition name="question" value="2">
+            <think><set name="jobA" add="1"></set></think>
+            <think><set name="jobD" add="1"></set></think>
+            <think><set name="question">3</set></think>
+            <template>
                 Are you interested in working with large datasets and using statistical tools? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>No</pattern>
-        <template>
-            <condition name="question" value="2">
-                <think><set name="jobB" add="1"></set></think>
-                <think><set name="jobC" add="1"></set></think>
-                <think><set name="jobE" add="1"></set></think>
-                <think><set name="question">3</set></think>
+        <condition name="question" value="2">
+            <think><set name="jobB" add="1"></set></think>
+            <think><set name="jobC" add="1"></set></think>
+            <think><set name="jobE" add="1"></set></think>
+            <think><set name="question">3</set></think>
+            <template>
                 Are you interested in working with large datasets and using statistical tools? (Yes/No)
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
 </aiml>

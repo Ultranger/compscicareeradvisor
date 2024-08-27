@@ -3,10 +3,10 @@
 
     <category>
         <pattern>A</pattern>
-        <template>
-            <condition name="question" value="8">
-                <think><set name="jobA" add="1"></set></think>
-                <think><set name="question">9</set></think>
+        <condition name="question" value="8">
+            <think><set name="jobA" add="1"></set></think>
+            <think><set name="question">9</set></think>
+            <template>
                 What is your preferred work environment?<br/>
                 A) I like working independently on coding projects.<br/>
                 B) I enjoy collaborating with others to analyze and interpret data.<br/>
@@ -14,16 +14,16 @@
                 D) I enjoy a research-oriented environment with a focus on innovation.<br/>
                 E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>B</pattern>
-        <template>
-            <condition name="question" value="8">
-                <think><set name="jobB" add="1"></set></think>
-                <think><set name="question">9</set></think>
+        <condition name="question" value="8">
+            <think><set name="jobB" add="1"></set></think>
+            <think><set name="question">9</set></think>
+            <template>
                 What is your preferred work environment?<br/>
                 A) I like working independently on coding projects.<br/>
                 B) I enjoy collaborating with others to analyze and interpret data.<br/>
@@ -31,16 +31,16 @@
                 D) I enjoy a research-oriented environment with a focus on innovation.<br/>
                 E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>C</pattern>
-        <template>
-            <condition name="question" value="8">
-                <think><set name="jobC" add="1"></set></think>
-                <think><set name="question">9/set></think>
+        <condition name="question" value="8">
+            <think><set name="jobC" add="1"></set></think>
+            <think><set name="question">9</set></think>
+            <template>
                 What is your preferred work environment?<br/>
                 A) I like working independently on coding projects.<br/>
                 B) I enjoy collaborating with others to analyze and interpret data.<br/>
@@ -48,16 +48,16 @@
                 D) I enjoy a research-oriented environment with a focus on innovation.<br/>
                 E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>D</pattern>
-        <template>
-            <condition name="question" value="8">
-                <think><set name="jobD" add="1"></set></think>
-                <think><set name="question">9</set></think>
+        <condition name="question" value="8">
+            <think><set name="jobD" add="1"></set></think>
+            <think><set name="question">9</set></think>
+            <template>
                 What is your preferred work environment?<br/>
                 A) I like working independently on coding projects.<br/>
                 B) I enjoy collaborating with others to analyze and interpret data.<br/>
@@ -65,16 +65,16 @@
                 D) I enjoy a research-oriented environment with a focus on innovation.<br/>
                 E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
     <category>
         <pattern>E</pattern>
-        <template>
-            <condition name="question" value="8">
-                <think><set name="jobE" add="1"></set></think>
-                <think><set name="question">9</set></think>
+        <condition name="question" value="8">
+            <think><set name="jobE" add="1"></set></think>
+            <think><set name="question">9</set></think>
+            <template>
                 What is your preferred work environment?<br/>
                 A) I like working independently on coding projects.<br/>
                 B) I enjoy collaborating with others to analyze and interpret data.<br/>
@@ -82,8 +82,8 @@
                 D) I enjoy a research-oriented environment with a focus on innovation.<br/>
                 E) I prefer a dynamic environment where I can assist others with technical issues.<br/>
                 Please respond with A, B, C, D, or E.
-            </condition>
-        </template>
+            </template>
+        </condition>
     </category>
 
 </aiml>
