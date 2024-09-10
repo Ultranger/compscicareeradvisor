@@ -53,8 +53,8 @@
     </category>
     
     <category>
-        <pattern>no suggested job</pattern>
-        <template>You have a unique skill-set, we recommend speaking with an advisor for a more personalized experience. Please type "help" to schedule an appointment!</template>
+        <pattern>no recommendation</pattern>
+        <template>We can't recommend a career based on these answers. Consider looking further into each career or retaking the quiz. Type 'begin' to return to the beginning.</template>
     </category>
     
 </aiml>

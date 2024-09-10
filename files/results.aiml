@@ -2,10 +2,10 @@
 <aiml version="2.0">
 
     <category>
-        <pattern>A</pattern>
-        <condition name="question" value="9">
-            <think><set name="jobA" add="1"></set></think>
-            <think>
+        <pattern>answer9a</pattern>
+        <think><set name="jobA" add="1"></set></think>
+        <template>
+           <think>
                 <condition name="jobA" value="MAX">
                     <postback>software developer question</postback>
                 </condition>
@@ -21,104 +21,95 @@
                 <condition name="jobE" value="MAX">
                     <postback>it support specialist question</postback>
                 </condition>
-            </think>
-        </condition>
+            </think> 
+        </template>
     </category>
 
     <category>
-        <pattern>B</pattern>
-        <condition name="question" value="9">
-            <think><set name="jobA" add="1"></set></think>
-            <think>
-                <condition name="jobA" value="MAX">
-                    <postback>software developer question</postback>
-                </condition>
-                <condition name="jobB" value="MAX">
-                    <postback>data analyst question</postback>
-                </condition>
-                <condition name="jobC" value="MAX">
-                    <postback>cybersecurity analyst question</postback>
-                </condition>
-                <condition name="jobD" value="MAX">
-                    <postback>aiml engineer question</postback>
-                </condition>
-                <condition name="jobE" value="MAX">
-                    <postback>it support specialist question</postback>
-                </condition>
-            </think>
-        </condition>
+        <pattern>answer9b</pattern>
+        <think><set name="jobA" add="1"></set></think>
+        <think>
+            <condition name="jobA" value="MAX">
+                <postback>software developer question</postback>
+            </condition>
+            <condition name="jobB" value="MAX">
+                <postback>data analyst question</postback>
+            </condition>
+            <condition name="jobC" value="MAX">
+                <postback>cybersecurity analyst question</postback>
+            </condition>
+            <condition name="jobD" value="MAX">
+                <postback>aiml engineer question</postback>
+            </condition>
+            <condition name="jobE" value="MAX">
+                <postback>it support specialist question</postback>
+            </condition>
+        </think>
     </category>
 
     <category>
-        <pattern>C</pattern>
-        <condition name="question" value="9">
-            <think><set name="jobA" add="1"></set></think>
-            <think>
-                <condition name="jobA" value="MAX">
-                    <postback>software developer question</postback>
-                </condition>
-                <condition name="jobB" value="MAX">
-                    <postback>data analyst question</postback>
-                </condition>
-                <condition name="jobC" value="MAX">
-                    <postback>cybersecurity analyst question</postback>
-                </condition>
-                <condition name="jobD" value="MAX">
-                    <postback>aiml engineer question</postback>
-                </condition>
-                <condition name="jobE" value="MAX">
-                    <postback>it support specialist question</postback>
-                </condition>
-            </think>
-        </condition>
+        <pattern>answer9c</pattern>
+        <think><set name="jobA" add="1"></set></think>
+        <think>
+            <condition name="jobA" value="MAX">
+                <postback>software developer question</postback>
+            </condition>
+            <condition name="jobB" value="MAX">
+                <postback>data analyst question</postback>
+            </condition>
+            <condition name="jobC" value="MAX">
+                <postback>cybersecurity analyst question</postback>
+            </condition>
+            <condition name="jobD" value="MAX">
+                <postback>aiml engineer question</postback>
+            </condition>
+            <condition name="jobE" value="MAX">
+                <postback>it support specialist question</postback>
+            </condition>
+        </think>
     </category>
 
     <category>
-        <pattern>D</pattern>
-        <condition name="question" value="9">
-            <think><set name="jobA" add="1"></set></think>
-            <think>
-                <condition name="jobA" value="MAX">
-                    <postback>software developer question</postback>
-                </condition>
-                <condition name="jobB" value="MAX">
-                    <postback>data analyst question</postback>
-                </condition>
-                <condition name="jobC" value="MAX">
-                    <postback>cybersecurity analyst question</postback>
-                </condition>
-                <condition name="jobD" value="MAX">
-                    <postback>aiml engineer question</postback>
-                </condition>
-                <condition name="jobE" value="MAX">
-                    <postback>it support specialist question</postback>
-                </condition>
-            </think>
-        </condition>
+        <pattern>answer9d</pattern>
+        <think><set name="jobA" add="1"></set></think>
+        <think>
+            <condition name="jobA" value="MAX">
+                <postback>software developer question</postback>
+            </condition>
+            <condition name="jobB" value="MAX">
+                <postback>data analyst question</postback>
+            </condition>
+            <condition name="jobC" value="MAX">
+                <postback>cybersecurity analyst question</postback>
+            </condition>
+            <condition name="jobD" value="MAX">
+                <postback>aiml engineer question</postback>
+            </condition>
+            <condition name="jobE" value="MAX">
+                <postback>it support specialist question</postback>
+            </condition>
+        </think>
     </category>
 
     <category>
-        <pattern>E</pattern>
-        <condition name="question" value="9">
-            <think><set name="jobA" add="1"></set></think>
-            <think>
-                <condition name="jobA" value="MAX">
-                    <postback>software developer question</postback>
-                </condition>
-                <condition name="jobB" value="MAX">
-                    <postback>data analyst question</postback>
-                </condition>
-                <condition name="jobC" value="MAX">
-                    <postback>cybersecurity analyst question</postback>
-                </condition>
-                <condition name="jobD" value="MAX">
+        <pattern>answer9e</pattern>
+        <think><set name="jobA" add="1"></set></think>
+        <think>
+            <condition name="jobA" value="MAX">
+                <postback>software developer question</postback>
+            </condition>
+            <condition name="jobB" value="MAX">
+                <postback>data analyst question</postback>
+            </condition>
+            <condition name="jobC" value="MAX">
+                <postback>cybersecurity analyst question</postback>
+            </condition>
+            <condition name="jobD" value="MAX">
                     <postback>aiml engineer question</postback>
-                </condition>
-                <condition name="jobE" value="MAX">
-                    <postback>it support specialist question</postback>
-                </condition>
-            </think>
-        </condition>
+            </condition>
+            <condition name="jobE" value="MAX">
+                <postback>it support specialist question</postback>
+            </condition>
+        </think>
     </category>
-
 </aiml>

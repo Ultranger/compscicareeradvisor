@@ -2,28 +2,17 @@
 <aiml version="2.0">
 
     <category>
-        <pattern>Yes</pattern>
-        <condition name="question" value="2">
-            <think><set name="jobA" add="1"></set></think>
-            <think><set name="jobD" add="1"></set></think>
-            <think><set name="question">3</set></think>
-            <template>
-                Are you interested in working with large datasets and using statistical tools? (Yes/No)
-            </template>
-        </condition>
+        <pattern>data question</pattern>
+        <template>
+            Are you interested in working with large datasets and using statistical tools?
+            <button>
+                <text>Yes</text>
+                <postback>data analyst question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>security question</postback>
+            </button>
+        </template>
     </category>
-
-    <category>
-        <pattern>No</pattern>
-        <condition name="question" value="2">
-            <think><set name="jobB" add="1"></set></think>
-            <think><set name="jobC" add="1"></set></think>
-            <think><set name="jobE" add="1"></set></think>
-            <think><set name="question">3</set></think>
-            <template>
-                Are you interested in working with large datasets and using statistical tools? (Yes/No)
-            </template>
-        </condition>
-    </category>
-
 </aiml>

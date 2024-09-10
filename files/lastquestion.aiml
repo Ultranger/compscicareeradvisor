@@ -2,16 +2,16 @@
 <aiml version="2.0">
 
     <category>
-        <pattern>security question</pattern>
+        <pattern>last question</pattern>
         <template>
-            Are you interested in the security and protection of computer systems?
+            Of all the questions asked here, was the last one the one you're most certain of?
             <button>
                 <text>Yes</text>
-                <postback>cybersecurity analyst question</postback>
+                <postback>aiml engineer question</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>tech issue question</postback>
+                <postback>no recommendation</postback>
             </button>
         </template>
     </category>

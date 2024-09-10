@@ -2,28 +2,17 @@
 <aiml version="2.0">
 
     <category>
-        <pattern>Yes</pattern>
-        <condition name="question" value="5">
-            <think><set name="jobC" add="1"></set></think>
-            <think><set name="jobD" add="1"></set></think>
-            <think><set name="question">6</set></think>
-            <template>
-                Are you comfortable working with end-users to solve their technical issues? (Yes/No)
-            </template>
-        </condition>
+        <pattern>tech issue question</pattern>
+        <template>
+            Are you comfortable working with end-users to solve their technical issues?
+            <button>
+                <text>Yes</text>
+                <postback>it support specialist question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>last question</postback>
+            </button>
+        </template>
     </category>
-
-    <category>
-        <pattern>No</pattern>
-        <condition name="question" value="5">
-            <think><set name="jobA" add="1"></set></think>
-            <think><set name="jobB" add="1"></set></think>
-            <think><set name="jobE" add="1"></set></think>
-            <think><set name="question">6</set></think>
-            <template>
-                Are you comfortable working with end-users to solve their technical issues? (Yes/No)
-            </template>
-        </condition>
-    </category>
-
 </aiml>
